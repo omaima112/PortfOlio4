@@ -36,9 +36,15 @@ export function Contact() {
               <p className="font-['Montserrat'] text-[#561C24] font-medium mb-1">Phone</p>
               <a
                 href="tel:03334423644"
-                className="font-['Montserrat'] text-[#6D2932] hover:text-[#561C24] transition-colors"
+                className="font-['Montserrat'] text-[#6D2932] hover:text-[#561C24] transition-colors block"
               >
                 +92333 4423644
+              </a>
+              <a
+                href="tel:03325866416"
+                className="font-['Montserrat'] text-[#6D2932] hover:text-[#561C24] transition-colors block mt-1"
+              >
+                +92332 5866416
               </a>
             </div>
           </div>

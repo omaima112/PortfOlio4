@@ -18,6 +18,12 @@ export function Achievements() {
     },
     {
       icon: <Award className="text-[#561C24]" size={32} />, 
+      title: 'Scholarship Awarded in HSSC 1',
+      img: undefined,
+      description: 'Received a merit-based scholarship for excellent academic performance in HSSC 1 (Intermediate Part 1).'
+    },
+    {
+      icon: <Award className="text-[#561C24]" size={32} />, 
       title: 'College Science Exhibition',
       img: '/achievements/1.png',
       tag: '2nd Position',
@@ -26,7 +32,7 @@ export function Achievements() {
     {
       icon: <Users className="text-[#561C24]" size={32} />, 
       title: 'Co-curricular Involvement',
-      img: '/achievements/3.png', // Added photo option
+      img: '/achievements/3.png',
       description: (
         <>
           Active in digital editing, media, personal brand & communication, and sports & team activities.
@@ -35,7 +41,6 @@ export function Achievements() {
             <li>Managing a personal brand with consistency and independent learning.</li>
             <li>Strong interest in technology and digital tools.</li>
             <li>Balance academics with active participation in sports.</li>
-            
           </ul>
         </>
       )
