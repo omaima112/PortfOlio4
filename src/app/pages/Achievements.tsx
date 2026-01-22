@@ -14,18 +14,18 @@ export function Achievements() {
       icon: <Award className="text-[#561C24]" size={32} />, 
       title: 'Academic Excellence in Matriculation (942/1100)',
       img: '/achievements/2.png',
-      description: 'Awarded for outstanding performance in Matriculation exams.'
+      description: 'Awarded a Gold Medal & Certificate for outstanding performance in Matriculation exams.'
     },
     {
       icon: <Award className="text-[#561C24]" size={32} />, 
       title: 'College Science Exhibition',
       img: '/achievements/1.png',
-      description: 'Participated and presented a project at the college science exhibition.'
+      description: 'Participated and presented a project at the college science exhibition. Secured 2nd position in the event'
     },
     {
       icon: <Users className="text-[#561C24]" size={32} />, 
       title: 'Co-curricular Involvement',
-      img: undefined, // No photo option
+      img: '/achievements/3.png', // Added photo option
       description: (
         <>
           Active in digital editing, media, personal brand & communication, and sports & team activities.
@@ -34,24 +34,30 @@ export function Achievements() {
             <li>Managing a personal brand with consistency and independent learning.</li>
             <li>Strong interest in technology and digital tools.</li>
             <li>Balance academics with active participation in sports.</li>
-            <li>Demonstrate teamwork and leadership through sports involvement.</li>
+            
           </ul>
         </>
       )
     },
     {
       icon: <Trophy className="text-[#561C24]" size={32} />, 
-      title: 'Personal Qualities',
+      title: 'Personal Qualities & Skills',
       img: undefined, // No photo option
       description: (
         <>
-          Teamwork, time management, discipline, and adaptability.
+          Teamwork, time management, discipline, adaptability, and a passion for continuous learning.
           <ul className="text-left mt-2 list-disc list-inside text-[#6D2932] text-base md:text-lg">
             <li>Fundamental knowledge of computer systems and programming concepts</li>
-            <li>Proficient in MS Word, PowerPoint, and basic IT tools</li>
+            <li>Proficient in MS Word, PowerPoint, Excel, and basic IT tools</li>
             <li>Strong logical reasoning and analytical thinking</li>
             <li>Effective time management and organizational skills</li>
-            <li>Good written and verbal communication in English</li>
+            <li>Good written and verbal communication in English and Urdu</li>
+            <li>Problem-solving and critical thinking</li>
+            <li>Basic web development (HTML, CSS, JavaScript)</li>
+            <li>Presentation and public speaking skills</li>
+            <li>Collaboration and leadership in group projects</li>
+            <li>Adaptability to new technologies and environments</li>
+            <li>Self-motivation and independent learning</li>
           </ul>
         </>
       )

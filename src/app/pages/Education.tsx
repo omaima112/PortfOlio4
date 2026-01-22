@@ -46,12 +46,7 @@ export function Education() {
                     <span className="bg-[#E8D8C4] px-4 py-2 rounded-md font-['Montserrat'] text-sm text-[#561C24]">
                       Physics
                     </span>
-                    <span className="bg-[#E8D8C4] px-4 py-2 rounded-md font-['Montserrat'] text-sm text-[#561C24]">
-                      English
-                    </span>
-                    <span className="bg-[#E8D8C4] px-4 py-2 rounded-md font-['Montserrat'] text-sm text-[#561C24]">
-                      Urdu
-                    </span>
+                   
                   </div>
                 </div>
 
@@ -142,11 +137,9 @@ export function Education() {
                       Chemistry
                     </span>
                     <span className="bg-[#E8D8C4] px-4 py-2 rounded-md font-['Montserrat'] text-sm text-[#561C24]">
-                      Biology
+                      Computer
                     </span>
-                    <span className="bg-[#E8D8C4] px-4 py-2 rounded-md font-['Montserrat'] text-sm text-[#561C24]">
-                      English
-                    </span>
+                  
                   </div>
                 </div>
 

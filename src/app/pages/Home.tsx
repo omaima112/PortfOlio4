@@ -9,7 +9,7 @@ export function Home() {
               Fizza Naveed
             </h1>
             <p className="font-['Montserrat'] text-xl md:text-2xl text-[#C7B7A3] mb-6 max-w-xl tracking-wide leading-relaxed">
-              Computer Science student specializing in Cyber Security and Artificial Intelligence, focused on building secure and intelligent digital solutions.
+              I am a Computer Science student currently pursuing Intermediate in Computer Science (ICS), with a strong interest in computing, logic, and problem-solving.
             </p>
             <blockquote className="font-['Montserrat'] italic text-base md:text-lg text-[#E8D8C4] max-w-2xl tracking-wide leading-relaxed mb-2">
               <span className="block text-2xl md:text-3xl mb-2">“Computer science empowers students to create the world of tomorrow.”</span>
