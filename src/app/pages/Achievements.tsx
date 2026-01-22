@@ -20,6 +20,7 @@ export function Achievements() {
       icon: <Award className="text-[#561C24]" size={32} />, 
       title: 'College Science Exhibition',
       img: '/achievements/1.png',
+      tag: '2nd Position',
       description: 'Participated and presented a project at the college science exhibition. Secured 2nd position in the event'
     },
     {
@@ -76,6 +77,12 @@ export function Achievements() {
               className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center text-center relative group transition hover:shadow-2xl min-h-[340px] md:min-h-[370px]"
             >
               <div className="absolute left-4 top-4">{ach.icon}</div>
+              {/* Tag for 2nd Position */}
+              {ach.tag && (
+                <span className="absolute right-4 top-4 bg-yellow-200 text-[#561C24] px-3 py-1 rounded-full text-xs font-semibold shadow">
+                  {ach.tag}
+                </span>
+              )}
               {ach.img ? (
                 <button onClick={() => openModal(ach.img!, ach.title)} className="focus:outline-none w-full">
                   <div className="w-full max-w-[400px] aspect-[4/3] mx-auto mb-4 flex items-center justify-center overflow-hidden rounded-lg border-2 border-[#C7B7A3] shadow group-hover:scale-105 transition">

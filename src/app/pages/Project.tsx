@@ -10,11 +10,15 @@ export function Project() {
 
         <div className="space-y-8">
           {/* Featured Project */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md">
+          <div className="bg-white rounded-lg overflow-hidden shadow-md relative">
             <div className="bg-gradient-to-br from-[#561C24] to-[#6D2932] p-6 md:p-8">
               <div className="flex flex-col md:flex-row items-center gap-4 mb-4">
                 {/* Project Picture */}
-                <div className="w-[400px] h-[300px] md:w-[600px] md:h-[450px] rounded-lg overflow-hidden bg-[#C7B7A3] flex items-center justify-center shadow-md">
+                <div className="w-[400px] h-[300px] md:w-[600px] md:h-[450px] rounded-lg overflow-hidden bg-[#C7B7A3] flex items-center justify-center shadow-md relative">
+                  {/* 2nd Position Tag */}
+                  <span className="absolute right-4 top-4 bg-yellow-200 text-[#561C24] px-3 py-1 rounded-full text-xs font-semibold shadow z-10">
+                    2nd Position
+                  </span>
                   <img
                     src="/project.PNG"
                     alt="Project Demo"
