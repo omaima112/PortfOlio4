@@ -18,16 +18,21 @@ export function Achievements() {
     },
     {
       icon: <Award className="text-[#561C24]" size={32} />, 
-      title: 'Scholarship Awarded in HSSC 1',
-      img: undefined,
-      description: 'Received a merit-based scholarship for excellent academic performance in HSSC 1 (Intermediate Part 1).'
-    },
-    {
-      icon: <Award className="text-[#561C24]" size={32} />, 
       title: 'College Science Exhibition',
       img: '/achievements/1.png',
       tag: '2nd Position',
       description: 'Participated and presented a project at the college science exhibition. Secured 2nd position in the event'
+    },
+    {
+      icon: <Award className="text-[#561C24]" size={32} />, 
+      title: 'Scholarship Awarded in HSSC 1',
+      img: undefined,
+      tag: 'Merit Scholarship',
+      description: (
+        <div className="flex flex-col items-center justify-center text-center w-full">
+          Received a <span className="font-semibold text-[#561C24]">merit-based scholarship</span> for excellent academic performance in HSSC-I, awarded by the college for ranking among the top students. This recognition highlights consistent dedication and outstanding results in the first year of Intermediate studies.
+        </div>
+      )
     },
     {
       icon: <Users className="text-[#561C24]" size={32} />, 
@@ -79,10 +84,10 @@ export function Achievements() {
           {achievements.map((ach, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center text-center relative group transition hover:shadow-2xl min-h-[340px] md:min-h-[370px]"
+              className={`bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center text-center relative group transition hover:shadow-2xl min-h-[340px] md:min-h-[370px]${ach.title === 'Scholarship Awarded in HSSC 1' ? ' justify-center' : ''}`}
             >
               <div className="absolute left-4 top-4">{ach.icon}</div>
-              {/* Tag for 2nd Position */}
+              {/* Tag for 2nd Position or Scholarship */}
               {ach.tag && (
                 <span className="absolute right-4 top-4 bg-yellow-200 text-[#561C24] px-3 py-1 rounded-full text-xs font-semibold shadow">
                   {ach.tag}
@@ -100,7 +105,7 @@ export function Achievements() {
                 </button>
               ) : null}
               <h2 className="font-['Playfair_Display'] text-2xl md:text-3xl text-[#561C24] font-semibold mb-2 mt-2">{ach.title}</h2>
-              <div className="font-['Montserrat'] text-[#6D2932] text-base md:text-lg mb-2">{ach.description}</div>
+              <div className={`font-['Montserrat'] text-[#6D2932] text-base md:text-lg mb-2${ach.title === 'Scholarship Awarded in HSSC 1' ? ' flex-1 flex items-center justify-center' : ''}`}>{ach.description}</div>
             </div>
           ))}
         </div>
