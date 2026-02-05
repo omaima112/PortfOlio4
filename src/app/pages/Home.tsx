@@ -27,7 +27,7 @@ export function Home() {
           {/* Right: Profile Picture (on mobile, above text) */}
           <div className="flex-shrink-0 w-56 h-56 md:w-80 md:h-80 rounded-full bg-[#C7B7A3] flex items-center justify-center shadow-lg overflow-hidden">
             <img
-              src="/profile.jpg"
+              src="/pfp.png"
               alt="Profile"
               className="w-52 h-52 md:w-72 md:h-72 object-cover rounded-full border-4 border-[#561C24]"
             />
