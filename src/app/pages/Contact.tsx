@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { useState } from 'react';
 
 export function Contact() {
@@ -48,22 +48,7 @@ export function Contact() {
               </a>
             </div>
           </div>
-                    <div className="flex items-start gap-4">
-                      <div className="bg-[#E8D8C4] p-3 rounded-lg">
-                        <Linkedin className="text-[#561C24]" size={20} />
-                      </div>
-                      <div>
-                        <p className="font-['Montserrat'] text-[#561C24] font-medium mb-1">LinkedIn</p>
-                        <a
-                          href="https://www.linkedin.com/in/fizza-naveed"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="font-['Montserrat'] text-[#6D2932] hover:text-[#561C24] transition-colors"
-                        >
-                          www.linkedin.com/in/fizza-naveed
-                        </a>
-                      </div>
-                    </div>
+                    
           <div className="flex items-start gap-4">
             <div className="bg-[#E8D8C4] p-3 rounded-lg">
               <MapPin className="text-[#561C24]" size={20} />
